@@ -1,7 +1,7 @@
 import os 
 os.system('clear')
 
-nome_produto = input("Digite a descrição do produto(nome): ")
+nome_produto = input("Digite o nome: ")
 quantidade = int(input("Digite a quantidade adquirida: "))
 preco_unitario = float(input("Digite o preço unitário: "))
 

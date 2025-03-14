@@ -25,7 +25,7 @@ def calcular_valor(litros, tipo_combustivel):
             desconto = 0.04  # 4% de desconto
         preco_por_litro = preco_alcool
     else:
-        return "Tipo de combustível inválido!"
+        return "Combustível inválido!"
 
     
     valor_bruto = litros * preco_por_litro
